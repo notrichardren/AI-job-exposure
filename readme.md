@@ -1,4 +1,4 @@
-# Title
+# Exposure, Embeddings, & Employment: Quantifying AI's Impact on Occupational Data
 
 This is heavily based on Webb (2019)'s paper, The Impact of Artificial Intelligence on the Labor Market https://www.michaelwebb.co/webb_ai.pdf
 
