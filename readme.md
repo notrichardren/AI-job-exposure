@@ -1,6 +1,14 @@
 # Exposure, Embeddings, & Employment: Quantifying AI's Impact on Occupational Data
 
-This is heavily based on Webb (2019)'s paper, The Impact of Artificial Intelligence on the Labor Market https://www.michaelwebb.co/webb_ai.pdf
+This is heavily based on Webb (2019)'s paper, The Impact of Artificial Intelligence on the Labor Market: https://www.michaelwebb.co/webb_ai.pdf
+
+I propose to study the relationship between technology exposure and labor market outcomes using text analysis of patents and occupations, inspired by the methodology used in Webb (2019).
+
+This project’s novelty lies in its method of calculating of occupation exposure scores for AI leveraging the latest advancements in natural language processing, as well as its analysis on patent data published in 2020-23. While Webb (2019) uses text-verb pairs, I aim to (somewhat poetically) use developments in AI and machine learning to study the effect that AI may have on automation and productivity.
+
+# Results
+
+
 
 # Codebase
 
