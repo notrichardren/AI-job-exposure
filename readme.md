@@ -54,4 +54,4 @@ WHERE
 
 Then, create a folder named "data", rename the .csv file to raw_patent_data.csv, and place it inside the folder.
 
-Afterwards, the main Jupyter notebook should work as expected.
+Afterwards, the main Jupyter notebook should work as expected cell-by-cell.
