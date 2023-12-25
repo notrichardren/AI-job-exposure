@@ -6,8 +6,7 @@ This is heavily based on Webb (2019)'s paper, The Impact of Artificial Intellige
 
 In the provided Jupyter notebook, a comprehensive data processing and analysis pipeline is established, primarily focusing on patent data and its correlation with various occupations over time.
 
-**Data Cleaning and Initial Processing:**
-The process begins by importing the `pandas` library and defining the `process_raw_data` function. This function reads raw patent data from a CSV file, eliminates any duplicate entries, and concatenates the title and abstract of each patent into a new 'all_text' column. The publication dates are converted into datetime objects to extract the year, and the data is then split and saved into separate CSV files for each year. This step ensures that the dataset is clean, organized, and prepared for more detailed analysis.
+**Data Cleaning and Initial Processing:** Initially, we use `pandas` and the `process_raw_data` function to readx raw patent data from a CSV file, eliminates any duplicate entries, and concatenates the title and abstract of each patent into a new 'all_text' column. The publication dates are converted into datetime objects to extract the year, and the data is then split and saved into separate CSV files for each year. This step ensures that the dataset is clean, organized, and prepared for more detailed analysis.
 
 **Embedding and Similarity Calculation:**
 To explore the relationship between patents and occupations, the notebook employs OpenAI's GPT embedding API. It uses a combination of `pandas`, `openai`, and `concurrent.futures` for parallel processing to generate embeddings for each patent's text. With these embeddings, it calculates the cosine similarity between patents and various occupations. These similarities aim to quantify the relevance or association between the content of patents and the skills or knowledge required in different occupations.
